@@ -1,0 +1,15 @@
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\dotnet examples\Day 7\ECommerce\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\dotnet examples\Day 7\ECommerce\DAL\bin\Debug\net7.0\DAL.dll
+D:\dotnet examples\Day 7\ECommerce\DAL\bin\Debug\net7.0\DAL.pdb
+D:\dotnet examples\Day 7\ECommerce\DAL\bin\Debug\net7.0\BOL.dll
+D:\dotnet examples\Day 7\ECommerce\DAL\bin\Debug\net7.0\BOL.pdb
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.dll
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\DAL.pdb
+D:\dotnet examples\Day 7\ECommerce\DAL\obj\Debug\net7.0\ref\DAL.dll
