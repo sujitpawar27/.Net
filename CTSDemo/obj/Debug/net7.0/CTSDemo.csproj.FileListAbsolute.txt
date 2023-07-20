@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\DotNet\CTSDemo\bin\Debug\net7.0\CTSDemo.exe
+C:\Users\IET\Desktop\DotNet\CTSDemo\bin\Debug\net7.0\CTSDemo.deps.json
+C:\Users\IET\Desktop\DotNet\CTSDemo\bin\Debug\net7.0\CTSDemo.runtimeconfig.json
+C:\Users\IET\Desktop\DotNet\CTSDemo\bin\Debug\net7.0\CTSDemo.dll
+C:\Users\IET\Desktop\DotNet\CTSDemo\bin\Debug\net7.0\CTSDemo.pdb
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.dll
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\refint\CTSDemo.dll
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.pdb
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\CTSDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\DotNet\CTSDemo\obj\Debug\net7.0\ref\CTSDemo.dll
