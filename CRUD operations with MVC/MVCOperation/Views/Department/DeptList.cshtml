@@ -1,0 +1,58 @@
+@using BOL;
+
+<h2>Department List</h2>
+<div>
+@{
+    List<Department> dlist =  (List<Department>)ViewData["departmentlist"];
+        <ol>
+        @foreach(Department d in dlist)
+        {
+            <li>@d.Name</li>
+            
+        }
+        </ol>      
+}
+</div>
+
+<a href="/Auth/Login"> go to log in</a>
+
+<p id="p1">changing values here</p>
+<hr>
+<button onclick="OnpPushMe()">Push Me</button>
+<button id="click">Click me</button>
+
+
+<script>                     //we have written two script tags for two diff function 
+     function OnpPushMe()    //because if there is error in first function then second function will also not work
+    {
+        document.getElementById("p1").innerText="OnPushMe method called (using js)"
+    }
+</script>
+
+<script>
+    $().ready( ()=>{
+        $("#click").click( ()=>{
+            $("#p1").text("Click me method called using jquery")
+        })
+    })
+</script>
+
+<br>
+<br>
+<br>
+<form action = "/Department/Details" method="post">
+insert Department no. <input type="number" name="number" id="number" />
+<br>
+<button >Get Details</button>
+</form>
+
+<br>
+<hr>
+<form action = "/Department/Insert" method="post">
+insert Department id. <input type="number" name="id" id="id" />
+insert Department name. <input type="text" name="name" id="name" />
+insert Department location. <input type="text" name="loc" id="loc" />
+<br>
+<button >insert</button>
+</form>
+

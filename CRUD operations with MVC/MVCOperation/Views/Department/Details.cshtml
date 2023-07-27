@@ -1,0 +1,66 @@
+@using BOL;
+<h1>Alora Home Decor</h1>
+<hr>
+<h2>Department List</h2>
+
+<div>
+    @{
+        Department d = ViewBag.selectDapartment;
+        <p>Id: <b>@d.Id</b></p>
+        <p>Name: <b>@d.Name</b></p>
+        <p>Location: <b>@d.Location</b></p>
+    }
+</div>
+<hr>
+<h3>client side services</h3>
+
+<button id="showemployee">Show Employee</button>
+<button id="insertemployee">Insert Employee</button>
+<p id="p2"></p>
+
+<script>
+    $().ready( ()=>{
+
+        $('#insertemployee').click( ()=>{
+
+            var empdata={"firstName":"Mayuri",
+                        "lastName":"Yerme",
+                        "email":"my@gmail.com"};
+
+            $.ajax({
+                url:"http://localhost:5000/Department/InsertEmployee",
+                type:"POST",
+                data:empdata,
+                success:(data)=>{
+                            console.log("In Success of Insert Employee")
+                },
+                error: (e)=>{ console.log("In error of Insert Employee")}
+
+            })
+        })
+
+
+        $("#showemployee").click( ()=> {
+            $.ajax({
+                        url: "http://localhost:5000/Department/Employee",
+                        @* type: "GET", *@
+                            success: (data)=>{
+                                console.log(data)
+                                        console.log("in success of showemployee button");
+                                        $("#p2").empty() 
+                                        for(var i =0; i<data.length; i++)
+                                        {
+                                            var Name= data[i].firstName +" "+ data[i].lastName+" "+data[i].email  //jason converts first letter capital => small
+                                           console.log("name"+Name)
+                                            $("#p2").append($("<li>").text(Name))
+
+                                            
+                                        } 
+                                    },
+                            error: (e)=> {console.log("could not connect to service");}        
+
+            })
+        })
+    })
+
+</script>
